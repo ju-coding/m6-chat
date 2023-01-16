@@ -1,0 +1,22 @@
+{
+  "name": "m6-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@vaadin/router": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase": "^9.15.0",
+    "firebase-admin": "^11.4.1",
+    "parcel": "^2.8.2",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "dev:front": "parcel serve ./client/index.html",
+    "dev:api": "ts-node ./server/index.ts"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
